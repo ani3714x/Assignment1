@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int eng,maths,phy,che,bio,total;
+  float perc;
+  printf("enter marks of eng,maths,phy,che and bio in this order\n");
+  scanf("%d%d%d%d%d",&eng,&maths,&phy,&che,&bio);
+  total = eng+maths+phy+che+bio;
+  perc = total/5;
+  printf("the total is %d \n",total);
+  printf("percentage is %f",perc);
+    return 0;
+}
