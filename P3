@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+  int gs,bs,da,hra,oa;
+  printf("enter basic salary,hra,da and other allowances \n");
+  scanf("%d%d%d%d",&bs,&hra,&da,&oa);
+  gs = bs+hra+da+oa;
+  printf("the gross salary is %d",gs);
+    return 0;
+}
