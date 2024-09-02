@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+  int s,d,x,y,h,m;
+  s = 31558150;
+  d = 31558150/86400;
+  x= 31558150%86400;
+  h=x/3600;
+  y=x%3600;
+  m=y/60;
+  printf("days = %d \n",d);
+  printf("hours = %d \n",h);
+  printf("minutes = %d \n",m);
+  return 0;
+}
