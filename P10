@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int m,p,c,e,cm;
+    printf("enter marks of maths,phy,che out of 200 \n");
+    scanf("%d%d%d",&m,&p,&c);
+    printf("enter marks in entrance examination out of 100 \n");
+    scanf("%d",&e);
+    cm = m/2 + p/2 + c/2 + e;
+    printf("the cutoff mark is %d",cm);
+ 
+ 
+  return 0;
+}
